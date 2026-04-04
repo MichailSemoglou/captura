@@ -1,0 +1,16 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+# E/W = pycodestyle errors/warnings, F = pyflakes, I = isort
+select = ["E", "F", "W", "I"]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+# Test-table docstrings intentionally exceed 88 chars for aligned formatting.
+"tests/**" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--tb=short"
