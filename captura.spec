@@ -73,7 +73,7 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name="Captura.app",
-    icon=None,              # Replace with "imgs/icon.icns" once an icon is added.
+    icon=imgs/icon.icns,
     bundle_identifier="com.captura.app",
     info_plist={
         "CFBundleName": "Captura",

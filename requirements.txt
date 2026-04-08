@@ -1,0 +1,13 @@
+# Runtime dependencies — Captura v1.0.0
+# All packages are pinned to exact versions for reproducible installs and
+# to ensure the PyInstaller build is deterministic. Pillow is pinned to
+# >=10.4.0 minimum to include critical security fixes; bump and re-test
+# before each release.
+# After setting up a fresh venv, run:
+#   pip install -r requirements.txt
+# To lock exact transitive versions to a lock file run:
+#   pip freeze > requirements.lock
+
+customtkinter==5.2.2
+mss==10.1.0
+Pillow==10.4.0
