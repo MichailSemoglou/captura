@@ -36,6 +36,10 @@ htmlcov/
 # ── Ruff cache ───────────────────────────────────────────────────────────────
 .ruff_cache/
 
+# ── Project tooling ──────────────────────────────────────────────────────────
+.specify/.github/agents/
+.github/prompts/
+
 # ── macOS system files ───────────────────────────────────────────────────────
 .DS_Store
 .DS_Store?
@@ -47,7 +51,6 @@ Icon?
 
 # ── Editor / IDE ─────────────────────────────────────────────────────────────
 .vscode/
-!.vscode/settings.json
 .idea/
 *.swp
 *.swo
